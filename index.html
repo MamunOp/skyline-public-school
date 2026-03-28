@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyline Public School | Nurturing Excellence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .hero-text { tracking-tighter; leading-[0.9]; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(226, 232, 240, 0.8); }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <!-- 1. COMPACT NAVIGATION -->
+    <nav class="fixed top-0 w-full z-50 glass px-6 py-3">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <!-- Logo Section -->
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-blue-900 rounded-lg flex items-center justify-center text-white font-black text-xs">SP</div>
+                <div class="leading-none">
+                    <h1 class="font-black text-blue-900 text-sm tracking-tight uppercase">Skyline Public</h1>
+                    <p class="text-[7px] text-orange-600 font-bold uppercase tracking-widest mt-0.5">School of Excellence</p>
+                </div>
+            </div>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex gap-6 font-bold text-[10px] text-slate-500 uppercase tracking-widest">
+                <a href="#about" class="hover:text-blue-900 transition">About</a>
+                <a href="#academics" class="hover:text-blue-900 transition">Academics</a>
+                <a href="#facilities" class="hover:text-blue-900 transition">Facilities</a>
+                <a href="#admissions" class="hover:text-blue-900 transition text-orange-600 font-black italic underline underline-offset-4">Admissions</a>
+            </div>
+            <!-- CTA -->
+            <a href="#contact" class="bg-blue-900 text-white px-4 py-2 rounded-lg font-bold text-[9px] uppercase tracking-widest hover:bg-orange-500 transition shadow-sm">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION (CENTRE-COMPACT) -->
+    <header class="pt-32 pb-16 px-6 bg-white overflow-hidden text-center">
+        <div class="max-w-5xl mx-auto">
+            <!-- Eyebrow Badge -->
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-50 border border-slate-200 mb-6">
+                <span class="w-1.5 h-1.5 bg-orange-500 rounded-full animate-pulse"></span>
+                <span class="text-[9px] font-bold text-slate-500 uppercase tracking-widest">Now Enrolling for 2024-25</span>
+            </div>
+
+            <!-- Mega Heading -->
+            <h1 class="flex flex-col items-center tracking-tighter leading-[0.9] mb-8">
+                <span class="text-[18vw] md:text-[9rem] font-black text-slate-900 uppercase">SKYLINE</span>
+                <span class="text-[8vw] md:text-[3.5rem] font-black text-blue-900 uppercase -mt-2 md:-mt-4">Public School</span>
+                <div class="flex items-center gap-3 mt-2">
+                    <div class="h-[1.5px] w-8 md:w-16 bg-orange-500"></div>
+                    <span class="text-[6vw] md:text-[2.2rem] font-bold text-orange-500 italic tracking-tight">Where Dreams Take Flight</span>
+                    <div class="h-[1.5px] w-8 md:w-16 bg-orange-500"></div>
+                </div>
+            </h1>
+
+            <p class="text-sm md:text-lg text-slate-500 max-w-xl mx-auto leading-snug mb-10">
+                A premium educational institution dedicated to <span class="text-slate-900 font-bold border-b-2 border-orange-400">holistic development</span>, blending modern technology with traditional values.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row justify-center gap-3 mb-16">
+                <a href="#admissions" class="bg-[#0F172A] text-white px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-widest shadow-xl hover:bg-orange-600 transition-all">Start Admission</a>
+                <a href="#academics" class="border border-slate-200 text-slate-600 px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-widest">Explore Academics</a>
+            </div>
+
+            <!-- COMPACT STATS -->
+            <div class="max-w-3xl mx-auto py-6 border-y border-slate-100 flex justify-around items-center">
+                <div class="text-center">
+                    <p class="text-xl md:text-3xl font-black text-slate-900">100%</p>
+                    <p class="text-[7px] md:text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-1">Board Result</p>
+                </div>
+                <div class="h-8 w-px bg-slate-100"></div>
+                <div class="text-center">
+                    <p class="text-xl md:text-3xl font-black text-slate-900">15+</p>
+                    <p class="text-[7px] md:text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-1">Years Legacy</p>
+                </div>
+                <div class="h-8 w-px bg-slate-100"></div>
+                <div class="text-center">
+                    <p class="text-xl md:text-3xl font-black text-slate-900">1:15</p>
+                    <p class="text-[7px] md:text-[9px] font-bold text-slate-400 uppercase tracking-widest mt-1">Teacher Ratio</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. ACADEMIC LEVELS (COMPACT GRID) -->
+    <section id="academics" class="py-12 px-6 bg-slate-50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl md:text-4xl font-black text-center text-blue-900 mb-10 tracking-tighter uppercase italic">Our Academic Wings</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Foundation -->
+                <div class="bg-white p-8 rounded-[2rem] border border-slate-200 hover:border-orange-500 transition shadow-sm group">
+                    <h3 class="text-blue-900 font-black text-lg mb-2 uppercase tracking-tight">Foundation</h3>
+                    <p class="text-slate-500 text-xs mb-6">Playgroup to Kindergarten. Play-based learning with a focus on motor skills.</p>
+                    <span class="text-[9px] font-black text-orange-500 uppercase group-hover:underline">Learn More →</span>
+                </div>
+                <!-- Primary -->
+                <div class="bg-blue-900 p-8 rounded-[2rem] text-white shadow-xl relative border-4 border-orange-500 transform lg:scale-105">
+                    <h3 class="text-orange-400 font-black text-lg mb-2 uppercase tracking-tight">Secondary</h3>
+                    <p class="text-blue-100 text-xs mb-6">Grades 1 to 10. Robust curriculum following National standards of education.</p>
+                    <span class="text-[9px] font-black text-white uppercase underline">Inquire Now →</span>
+                </div>
+                <!-- Senior -->
+                <div class="bg-white p-8 rounded-[2rem] border border-slate-200 hover:border-orange-500 transition shadow-sm group">
+                    <h3 class="text-blue-900 font-black text-lg mb-2 uppercase tracking-tight">Senior Secondary</h3>
+                    <p class="text-slate-500 text-xs mb-6">Grades 11 & 12. Specialized Science, Commerce, and Arts streams.</p>
+                    <span class="text-[9px] font-black text-orange-500 uppercase group-hover:underline">Explore Streams →</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. FACILITIES (THIN LISTING) -->
+    <section id="facilities" class="py-12 px-6 bg-white">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1">
+                <h2 class="text-3xl font-black text-blue-900 leading-none mb-6 uppercase tracking-tighter italic">World Class<br>Infrastructure</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-slate-50 rounded flex items-center justify-center text-[10px] font-bold text-blue-900 border border-slate-100">🔬</div>
+                        <span class="text-[10px] font-bold uppercase text-slate-600 tracking-wider">Smart Labs</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-slate-50 rounded flex items-center justify-center text-[10px] font-bold text-blue-900 border border-slate-100">🏀</div>
+                        <span class="text-[10px] font-bold uppercase text-slate-600 tracking-wider">Sports Arena</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-slate-50 rounded flex items-center justify-center text-[10px] font-bold text-blue-900 border border-slate-100">📖</div>
+                        <span class="text-[10px] font-bold uppercase text-slate-600 tracking-wider">Library</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 bg-slate-50 rounded flex items-center justify-center text-[10px] font-bold text-blue-900 border border-slate-100">🚍</div>
+                        <span class="text-[10px] font-bold uppercase text-slate-600 tracking-wider">Transport</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 w-full h-64 bg-slate-100 rounded-[2rem] overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="School Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FOOTER (MODERN COMPACT) -->
+    <footer id="contact" class="bg-[#0F172A] text-white py-12 px-6">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 border-b border-white/5 pb-10">
+            <div>
+                <h3 class="text-xl font-black mb-2 uppercase tracking-tighter italic">Skyline Public School</h3>
+                <p class="text-blue-200/40 text-[10px] font-bold uppercase tracking-[0.2em] mb-4">Established 2009 • CBSE Affiliated</p>
+                <p class="text-xs text-blue-100 leading-relaxed max-w-xs">123 Education Drive, Skyline Nagar, Darrang, Assam - 784125</p>
+            </div>
+            <div class="flex flex-col md:items-end justify-center gap-3">
+                <a href="tel:+919876543210" class="text-lg font-bold hover:text-orange-500 transition">+91 98765 43210</a>
+                <p class="text-[10px] text-blue-200/30 uppercase tracking-widest font-black italic">admissions@skylinepublic.edu.in</p>
+            </div>
+        </div>
+        <div class="text-center pt-8">
+            <p class="text-[8px] text-slate-600 font-bold uppercase tracking-widest">&copy; 2024 Skyline Public School. Managed by Skyline Education Trust.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
